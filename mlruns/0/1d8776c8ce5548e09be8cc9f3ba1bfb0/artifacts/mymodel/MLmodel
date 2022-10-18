@@ -1,0 +1,16 @@
+artifact_path: mymodel
+flavors:
+  python_function:
+    artifacts:
+      pycaret_model_path:
+        path: artifacts/mymodel.pkl
+        uri: mymodel.pkl
+    cloudpickle_version: 2.2.0
+    env: conda.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.8.13
+mlflow_version: 1.29.0
+model_uuid: 0143a5c1bfed4a5caee74e933e02e4f7
+run_id: 1d8776c8ce5548e09be8cc9f3ba1bfb0
+utc_time_created: '2022-10-17 05:26:08.990281'

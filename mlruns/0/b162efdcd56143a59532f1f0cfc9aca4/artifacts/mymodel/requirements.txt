@@ -1,0 +1,7 @@
+mlflow
+cffi==1.15.1
+cloudpickle==2.2.0
+dataclasses==0.6
+defusedxml==0.7.1
+graphviz==0.20.1
+pycaret==2.3.10
